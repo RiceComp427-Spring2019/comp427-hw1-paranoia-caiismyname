@@ -48,19 +48,17 @@ please cut-and-paste the text from that email here._
 - Countermeasures:
   - Ideally, preventative measures would be taken early on to only hire trusted graders. However, the more interesting version of the problem is when graders can also be attackers, so let’s address that version.   
 	- The counter measures hinge on ensuring the integrity of the homeworks. To do this, we must designate the professor as the only known-good actor — they will be the only one to hold the keys to some parts of this system. Upon collection of the homeworks, the professor marks them in some difficult to replicate way, changing for each assignment. The professor then places these  in an access controlled box in his office. Grading must occur all at once, where the graders and professor gather in a room together. At this time, the professor will control access to the homeworks, handing one out to a grader only after they have returned the previous homework they were grading, and determining that the integrity mark made earlier is present. The professor randomly chooses two graders to grade each instance of a homework, and only upon receiving agreeing grades does he (and only he) enter the grade in a password protected computer system. The protection of the computer system is left for another time, but let us assume that by having sole knowledge of the password, the professor has secured the system. 
-	- This system prevents against any student having access to the homeworks, and it prevents any grader from tampering with the homeworks or giving unfair grades. The system imposes some costs on the professor (marking the homeworks), but that is a one-time, low effort cost that can be incurred. The biggest problem with the system is that it does not allow for distributed grading of the homework (each grader takes a couple and enters them in on their own), but since the graders can’t be trusted, this is a reasonable tradeoff of efficiency vs. security, and can be further addressed by having more graders attending the grading party.
+	- This system prevents against any student having access to the homeworks, and makes it significantly more difficult for a grader to tampering with the homeworks or give unfair grades. The system imposes some costs on the professor (marking the homeworks), but that is a one-time, low effort cost that can be incurred. The biggest problem with the system is that it does not allow for distributed grading of the homework (each grader takes a couple and enters them in on their own), but since the graders can’t be trusted, this is a reasonable tradeoff of efficiency vs. security, and can be further addressed by having more graders attending the grading party.
 
 ## Problem 3
-- Scenario: Your choice (give a brief explanation)
+- Scenario: In light of recent thefts on campus, I will investigate the situation of leaving one’s laptop in a college commons.
 - Assumptions:
-  - explain_your_assumptions
+  - None
 - Assets:
-  - explanatory_paragraph
-  - explanatory_paragraph ...
+  - The primary asset is my laptop, and secondarily any accessories (e.g. headphones, backpack). Ideally, the availability of my laptop would be maintained (keeping a laptop open on a table is much easier to use than putting it away and taking it out every time). Finally, the convenience of not having to take my laptop with me every time I have to get up is a major asset, and is fundamentally what creates this entire problem.
 - Threats:
-  - explanatory_paragraph 
-  - explanatory_paragraph ...
+  - The main threat is an adversary stealing my laptop while I am not at my laptop (e.g. using the bathroom, getting coffee). If my laptop is logged in, they also have access to my data and any accounts that are accessible from my computer. There is also the secondary threat of damage, intentional or accidental, to my laptop. 
 - Countermeasures:
-  - explanatory_paragraph
-  - explanatory_paragraph ...
+	- The obvious solution would to place my laptop in my bag and taking it with me where I go. However, this directly impacts the availability of my laptop, having to open/login every time I get up. If I were to optimize for availability — leaving the laptop out and logged in no matter where I go — the laptop or my digital resources could easily be taken. The two assets seem to run directly in opposition to each other. Furthermore, it seems difficult to achieve an in-between state in terms of availability, since something like ‘closing and locking my laptop’ does not affect its physical security, but only decreases its availability. 
+	- A partial solution can be seen in asking someone nearby to “keep an eye” on my laptop, but this has no benefit when there is no one around (that I trust). If I accept having to give up immediate availability of the laptop (keeping it open), camouflage becomes an option; hiding the laptop under a pile of books and notebooks significantly reduces the possibility of a thief seeing the laptop as a target. Finally, I could give up availability and convenience to ensure security, if my laptop is valuable enough. As a CS major, that is certainly the case and given my set of values, would be my chosen solution. However, those with different value balances may chosen a different solution from the above options.
 
